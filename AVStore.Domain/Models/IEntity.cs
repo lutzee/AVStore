@@ -1,4 +1,4 @@
-﻿namespace AVStore.DataAccess
+﻿namespace AVStore.Domain.Models
 {
     public interface IEntity<T>
     {

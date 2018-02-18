@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
-using AVStore.DataAccess;
 
-namespace AVStore.Domain
+namespace AVStore.Domain.Models
 {
     public class Order : IEntity
     {

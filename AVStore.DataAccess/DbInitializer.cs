@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using AVStore.Domain;
+using AVStore.Domain.Models;
 
 namespace AVStore.DataAccess
 {

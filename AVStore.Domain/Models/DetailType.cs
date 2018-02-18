@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using AVStore.Core;
 
-namespace AVStore.Domain
+namespace AVStore.Domain.Models
 {
     public class DetailType : Enumeration
     {
@@ -20,7 +20,7 @@ namespace AVStore.Domain
 
         public ICollection<Detail> Details { get; set; }
 
-        protected DetailType()
+        public DetailType()
         {
         }
 

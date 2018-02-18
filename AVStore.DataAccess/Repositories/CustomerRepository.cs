@@ -1,4 +1,4 @@
-﻿using AVStore.Domain;
+﻿using AVStore.Domain.Models;
 
 namespace AVStore.DataAccess.Repositories
 {

@@ -1,4 +1,4 @@
-﻿namespace AVStore.Domain
+﻿namespace AVStore.Domain.Models
 {
     public class OrderLine
     {

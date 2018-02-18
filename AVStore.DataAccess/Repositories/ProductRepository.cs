@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AVStore.Domain;
+using AVStore.Domain.Models;
 
 namespace AVStore.DataAccess.Repositories
 {

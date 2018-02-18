@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace AVStore.DataAccess.Repositories
+namespace AVStore.DataAccess
 {
     public interface IRepository<T>
     {

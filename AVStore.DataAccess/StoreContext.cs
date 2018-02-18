@@ -1,4 +1,4 @@
-﻿using AVStore.Domain;
+﻿using AVStore.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AVStore.DataAccess

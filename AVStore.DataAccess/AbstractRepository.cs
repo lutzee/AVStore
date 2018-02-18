@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using AVStore.DataAccess.Repositories;
+using AVStore.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AVStore.DataAccess

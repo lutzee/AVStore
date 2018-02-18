@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AVStore.Domain
+namespace AVStore.Domain.Models
 {
     public class Detail
     {
