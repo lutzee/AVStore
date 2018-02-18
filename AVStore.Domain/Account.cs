@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using AVStore.DataAccess;
 
 namespace AVStore.Domain
 {
-    public class Account
+    public class Account : IEntity
     {
         public int Id { get; set; }
 

@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using AVStore.DataAccess;
 
 namespace AVStore.Domain
 {
-    public class Customer
+    public class Customer : IEntity
     {
         public int Id { get; set; }
 

@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using AVStore.DataAccess;
 
 namespace AVStore.Domain
 {
-    public class Order
+    public class Order : IEntity
     {
         public int Id { get; set; }
 
