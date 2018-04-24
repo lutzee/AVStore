@@ -55,6 +55,7 @@ namespace AVStore.DataAccess.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Description = table.Column<string>(maxLength: 4000, nullable: true),
+                    InStock = table.Column<bool>(nullable: false),
                     Name = table.Column<string>(maxLength: 1000, nullable: false),
                     Price = table.Column<decimal>(nullable: false)
                 },

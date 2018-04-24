@@ -1,4 +1,4 @@
-﻿namespace AVStore.Domain.Models
+﻿namespace AVStore.Domain.Entities
 {
     public class CustomerAccount
     {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class Order : IEntity
     {
@@ -14,6 +15,7 @@ namespace AVStore.Domain.Models
 
         public Account Account { get; set; }
 
+        [JsonIgnore]
         public ICollection<OrderLine> OrderLines { get; set; }
 
         public decimal OrderCost { get; set; }

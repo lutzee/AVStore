@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class Account : IEntity
     {
@@ -12,8 +13,10 @@ namespace AVStore.Domain.Models
 
         public decimal Overdraft { get; set; }
 
+        [JsonIgnore]
         public ICollection<CustomerAccount> Owners { get; set; }
 
+        [JsonIgnore]
         public ICollection<Order> Orders { get; set; }
     }
 }

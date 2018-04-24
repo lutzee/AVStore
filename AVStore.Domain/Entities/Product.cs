@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class Product : IEntity
     {
@@ -12,8 +13,12 @@ namespace AVStore.Domain.Models
 
         public decimal Price { get; set; }
 
+        [JsonIgnore]
         public ICollection<ProductDetail> ProductDetails { get; set; }
 
+        [JsonIgnore]
         public ICollection<OrderLine> OrderLines { get; set; }
+
+        public bool InStock { get; set; }
     }
 }

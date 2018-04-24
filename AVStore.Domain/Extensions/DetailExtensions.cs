@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using AVStore.Core;
-using AVStore.Domain.Models;
+using AVStore.Domain.Entities;
 
 namespace AVStore.Domain.Extensions
 {

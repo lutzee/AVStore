@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class Customer : IEntity
     {
@@ -12,6 +13,7 @@ namespace AVStore.Domain.Models
 
         public string Name => $"{FirstName} {LastName}";
 
+        [JsonIgnore]
         public ICollection<CustomerAccount> Accounts { get; set; }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using AVStore.Core;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class DetailType : Enumeration
     {

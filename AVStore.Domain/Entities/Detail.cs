@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace AVStore.Domain.Models
+namespace AVStore.Domain.Entities
 {
     public class Detail
     {
@@ -10,6 +11,7 @@ namespace AVStore.Domain.Models
 
         public string Value { get; set; }
 
+        [JsonIgnore]
         public ICollection<ProductDetail> ProductDetails { get; set; }
 
         public int TypeId { get; set; }

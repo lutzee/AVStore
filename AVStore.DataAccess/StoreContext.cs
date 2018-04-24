@@ -1,4 +1,4 @@
-﻿using AVStore.Domain.Models;
+﻿using AVStore.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace AVStore.DataAccess
@@ -40,6 +40,9 @@ namespace AVStore.DataAccess
                     .HasMaxLength(1000);
 
                 x.Property(p => p.Price)
+                    .IsRequired();
+
+                x.Property(p => p.InStock)
                     .IsRequired();
             });
 
